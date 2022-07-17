@@ -1,0 +1,125 @@
+
+Create a folder 
+go inside the folder and right click and click on git bash
+
+1) git init   #start git 
+
+2) git config --global user.name"akshat"    (only once u have to do it) 
+
+3) git config --global user.email"akshat@apicletech.com"   (only once you need to do)
+
+4) git config --list    (you will see your name and email. press q to quit)
+
+5) touch file1 file2 file3 file4    (create a blank file) 
+
+6) git status                        (will give u the status of ur git repo)
+
+7) git add .                         (put all files from working dir to staging area . use git add filename to move only one file to staging area) 
+
+5) git status
+
+6) git commit -m"thsi is first commit"    (put files from staging area to local repo)
+
+7) make some changes in file1 and file2 (add some content)
+
+8) git status (you will see that file1 and file2 are modified)
+
+9) git add .  (these will add file1 and file2 to staging area)
+
+10) git commit -m "second commit"    (add your files in staging area to local repo) 
+
+11) git status 
+
+12) git log    (this will give the log of your commits)
+
+13) git log --oneline (this will give imp details of log in oneline) 
+
+########################################################################
+################IGNORING FILES IN GIT ################################
+
+
+14) touch error.log
+
+15) git status
+
+16) touch .gitignore
+
+17) add the error.log in .gitignore 
+
+18) git add .
+
+19) git commit -m"git ignore created"
+
+20) now update some content in error.log 
+
+21) git status 
+
+
+##################################################################################
+
+
+
+22) create a github account and create a repo
+
+23) git remote add origin <<repo link>>
+
+24) git push -u origin master 
+
+
+25) now go to your remote repo you will see the files
+
+######################CLONE #########################################
+
+26) git clone <<repo link >>>>            #this iwll clone the repo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
